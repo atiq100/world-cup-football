@@ -1,0 +1,68 @@
+/* ------Fonts----- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+/* -----------Common styles------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* ------Header styles---------- */
+.background-color{
+    height: 500px;
+    margin: 50px 140px;
+    background: #161616;
+    border-radius: 30px;
+}
+.header-section{
+    display: flex;
+    align-items: flex-start;
+    align-items: center;
+    padding: 0px 100px;
+    padding-top: 33px; 
+}
+.banner-heading{
+    font-weight: 700;
+    font-size: 70px;
+    color: #FFFFFF;
+    line-height: 70px;
+}
+.banner-paragraph{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-top: 15px;
+}
+.orange-btn{
+    margin-top: 30px;
+}
+.orange-btn a{
+    text-decoration: none;
+    color: white;
+    padding: 16px 24px;
+    background: #DD0000;
+    border-radius: 5px;
+}
+.banner-img{
+    width: 375px;
+    height: 482px;
+}
+/* ------main section styles---------- */
+.transfer-talk{
+    margin-bottom:30px ;
+}
+.transfer-text{
+    text-align: center;
+    color: #161616;
+
+}
+.blogs{
+    display: flex;
+}
+.transfer-news{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
