@@ -50,6 +50,10 @@ body{
     height: 482px;
 }
 /* ------main section styles---------- */
+.container{
+    margin-right: 100px;
+    margin-left: 80px;
+}
 .transfer-talk{
     margin-bottom:30px ;
 }
@@ -61,8 +65,89 @@ body{
 .blogs{
     display: flex;
 }
+.fixed-sidebar{
+    width: 312px;
+    height: 312px;
+    margin-right: 15px;
+    text-align: center;
+    background: #161616;
+    border-radius: 10px;
+   
+}
+.fixed-btn{
+    margin-top: 30px;
+    
+}
+.fixed-btn a{
+    display: block;
+    text-decoration: none;
+    color: #161616;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 8px;
+    width: 90%;
+    padding: 10px 16px;
+
+}
+.blog-btn{ 
+  background: #FFFFFF;  
+}
+.blog-active{
+    background: #DD0000;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+.active a {
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
 .transfer-news{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    gap: 15px;
 }
+.card{
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+}
+.small-btn{
+    width: 100px;
+    height: 32px;
+    margin-left: 20px;
+    margin-top: 24px;
+    border: 1px solid #161616;
+    border-radius: 5px;
+    text-align: center;
+}
+.small-btn a{
+    text-decoration: none;
+   
+    font-weight: 500;
+    font-size: 16px;
+    color: #161616;
+}
+.transfer-details{
+    margin:15px 0px;
+    margin-left: 20px;
+}
+.live-news{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #161616;
+}
+.watch-time{
+    margin-left: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(22, 22, 22, 0.7);
+}
+.space{
+    margin-right: 30px;
+}
+
+
 
