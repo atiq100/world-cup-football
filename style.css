@@ -111,6 +111,9 @@ html,body{
     padding: 10px 16px;
 
 }
+.fixed-btn a:hover{
+    color: blue;
+}
 .blog-btn{ 
   background: #FFFFFF;  
 }
@@ -145,11 +148,11 @@ html,body{
 }
 .small-btn a{
     text-decoration: none;
-   
     font-weight: 500;
     font-size: 16px;
     color: #161616;
 }
+
 .transfer-details{
     margin:15px 0px;
     margin-left: 20px;
@@ -241,10 +244,10 @@ hr{
     color: #B9B9B9;
 }
 
-.space{
+.spaces{
     margin: 15px;
 }
-.space:hover{
+.spaces:hover{
     color: whitesmoke;
 }
 /* ------media queries-------- */
@@ -351,8 +354,11 @@ hr{
         align-items: center;
         justify-content: center;
     } 
+    .footer-content{
+        justify-content: space-evenly;
+    }
     .footer-item{
-        font-size: 24px;
+        font-size: 25px;
     }
    
 }
