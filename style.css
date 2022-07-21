@@ -351,5 +351,8 @@ hr{
         align-items: center;
         justify-content: center;
     } 
+    .footer-item{
+        font-size: 24px;
+    }
    
 }
